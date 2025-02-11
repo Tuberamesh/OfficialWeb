@@ -13,29 +13,28 @@ header {
     color: #fff;
     padding: 1rem 0;
 }
-header .container {
-    display:inline-block;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: auto;
-    padding-left: 20px;
+ h1 {
+   margin-top:10px;
+     colour:white;
+     text-align:centre;
 }
-header h1 {
-    margin-left:50px;
-}
-header nav ul {
+nav ul {
     display: flex;
-    list-style: none;
-    margin-top:15px;
+    list-style:none;
 }  
-header nav ul li {
+ nav ul li {
     margin-left:20px;
 }
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    margin-left: -13px;
+ nav ul li a {
+     text-align:centre;
+     margin-left:12px;
+     colour:white;
+     text-decoration:none;
+     padding-bottom:20px;
+}
+.head{
+    background-colour:#007BFF;
+    margin-top:-10px;
 }
 
 /* Hero Section */
