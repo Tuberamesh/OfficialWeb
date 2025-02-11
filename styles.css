@@ -24,7 +24,7 @@ nav ul {
     list-style:none;
 }  
  nav ul li {
-    margin-left:18px;
+    margin-left:5x;
 }
  nav ul li a {
      text-align:centre;
@@ -33,10 +33,7 @@ nav ul {
      text-decoration:none;
      padding-bottom:20px;
 }
-.head{
-    background-colour:#007BFF;
-    margin-top:-10px;
-}
+
 
 /* Hero Section */
 .hero {
