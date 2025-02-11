@@ -1,0 +1,212 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 1rem 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+}
+header h1 {
+    margin: 0;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: -7px;
+}  
+header nav ul li {
+    margin: 0 10px;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: -13px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: #f4f4f4;
+    margin-top: px;
+
+    height: 240px;
+
+}
+.png{
+      display: block;
+      width: 100%;
+      height:auto;
+      margin: 0;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.hero .btn {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+
+    text-align: center;
+     border-color: #333;
+}
+.section h2 {
+    text-align: center;
+  margin-top: 2px;
+}
+.para{
+    margin-top:auto;
+    margin-bottom: 40px;
+}
+.btn{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: red;
+}
+.linkedin{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    padding: 10px 27px;
+    border-radius: 20px;
+}
+.linkedin:hover{
+    background-color: #0077B5;
+}
+.instagram{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.instagram:hover{
+    background-color: rgb(237, 76, 196);
+}
+.yl{
+    align-items: center;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.project {
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.project:hover{
+    transform: translateY(-5px);
+}
+.project h3 {
+    margin-top: 0;
+}
+
+/* Contact Form */
+form {
+    max-width: 400px;
+    margin: auto;
+    border: burlywood
+}
+form:hover{
+    border: #333;
+}
+form label {
+    display: block;
+    margin-top: 0px;
+}
+form input, form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 23px;
+    margin-bottom: 10px;
+}
+form button:hover{
+    background-color: #5d97d5;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+::placeholder{
+    text-align: center;
+}
+.field{
+    background-color: #9aded1;
+    height: 450px;
+}
+ .border{
+    border: #e03636;
+
+  
+    overflow: hidden;
+ }
+ .app{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #3690f1;
+    color: white;
+    border-radius: 23px;
+    margin-top: 8px;
+ }
+    .app:hover{
+        background-color: #5d97d5;
+    
+ }
+
+  

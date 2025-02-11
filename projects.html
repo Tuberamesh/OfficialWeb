@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Active Projects</title>
+</head>
+<body>
+   <style>
+     @keyframes rainbow {
+  0% { background-color: #FF0000; }
+  14% { background-color: #FF7F00; }
+  28% { background-color: #FFFF00; }
+  42% { background-color: #00FF00; }
+  57% { background-color: #0000FF; }
+  71% { background-color: #4B0082; }
+  85% { background-color: #8A2BE2; }
+  100% { background-color: #FF0000; }
+}
+
+body {
+  animation: rainbow 5s infinite;
+  margin: 0;
+  height: 100vh;  /* Ensures the background covers the full screen */
+}
+    .project{
+        padding: 20px;
+        width: 500px;
+        margin-top:40px;
+        
+         text-align: center;
+        background: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    .project2{
+     padding: 20px;
+     width: 500px;
+     display: inline-block;
+        background: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    .grid{
+       display: flex;
+       flex-direction: column;
+       gap: 25px;
+       align-items: center;
+    }
+    .h2{
+        text-align: center;
+        margin-top: 140px;
+    }
+    a{
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        padding: 4px 16px;
+        border-radius: 23px;
+    }
+    a:hover{
+        background-color: rgb(142, 119, 119);
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+ 
+   </style>
+
+
+   <h2 class="h2">My Projects</h2>
+       <div class="grid" >
+
+
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>A affiliate page I built using HTML and CSS.</p>
+            <a href="https://tuberamesh.github.io/TuberRamesh/" class="app">check</a>
+           </div> <br>
+           <div class="project2">
+            <h3>Project 2</h3>
+            <p>A whether app I created using HTML,CSS and 
+                JS</p>
+            <a href="app.html" class="app">check</a>
+           </div>
+
+
+
+       </div>
+
+</body>
+</html>

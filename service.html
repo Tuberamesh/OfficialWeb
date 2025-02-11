@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">My Services</h1>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about .html">About</a>
+        <a href="projects.html">projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="services-section">
+    <div class="container">
+      <h2>What I Offer</h2>
+      <p class="intro">I provide high-quality services to help bring your ideas to life.</p>
+      
+      <div class="services">
+        <!-- Video Editing Service -->
+        <div class="service">
+          <video controls width="100%" height="auto" class="video">
+            <source src="video.mp4">
+          </video>
+          <h3>Video Editing</h3>
+          <p>I specialize in editing professional-quality videos for YouTube, reels, and other platforms. Enhance your content with smooth transitions, color grading, and more!</p>
+        </div>
+        
+        <!-- Thumbnail Designing Service -->
+        <div class="service">
+          <img src="all .jpeg" alt="Thumbnail Designing" class="Thumbnail">
+          <h3>Thumbnail Designing</h3>
+          <p>Create eye-catching and custom thumbnails that boost your views and engagement. Perfect for YouTube and social media platforms.</p>
+        </div>
+        
+        <!-- Website Building Service -->
+        <div class="service">
+          <img src="website.jpeg" alt="Website Building">
+          <h3>Website Building</h3>
+          <p>Build responsive and modern websites using HTML, CSS, and JavaScript. Perfect for portfolios, blogs, or business websites.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+  <style>
+    /* services.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header {
+  background: #4caf50;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.logo {
+  margin-left: 47px;
+}
+
+.nav {
+   float: right;
+   margin-top: -38px;
+   
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.services-section {
+  background: #f9f9f9;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.services-section .intro {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 29px;
+  margin-left: 107px;
+
+}
+
+.service {
+  flex: 1;
+  min-width: 300px;
+  max-width: 30%;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+
+}
+
+.service:hover {
+  transform: translateY(-5px);
+}
+
+.service img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 19px;
+  margin-bottom: 15px;
+}
+
+.service h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+.video{
+  border-radius:17px;
+}
+.Thumbnail{
+  border-radius: 18px;
+}
+  </style>
+</body>
+</html>
