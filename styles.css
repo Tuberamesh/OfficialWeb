@@ -15,15 +15,16 @@ header {
 }
  h1 {
    margin-top:10px;
-     colour:white;
-     text-align:centre;
+     margin-left:65px;
+     colour:#FFFFFF;
+   
 }
 nav ul {
     display: flex;
     list-style:none;
 }  
  nav ul li {
-    margin-left:20px;
+    margin-left:18px;
 }
  nav ul li a {
      text-align:centre;
